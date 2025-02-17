@@ -3,6 +3,7 @@ import LoginView from '../views/LoginView.vue';
 import RegisterView from '../views/RegisterView.vue';
 
 const routes = [
+  { pat:  '/', component: Home },
   { path: '/login', component: LoginView },
   { path: '/register', component: RegisterView },
 ];
